@@ -2,36 +2,39 @@
 // Created by KCY on 24-8-15.
 //
 
-#include "KMP_0.h"
+#include "KMP_1.h"
 
-int main() {
+int main()
+{
     String S;
     String T;
-
     const char *str1 = "Hello, World";
     const char *str2 = "World";
-
     InitString(&S);
     InitString(&T);
-
     AssignString(&S, str1);
     AssignString(&T, str2);
 
-    printf("%s\n", S.ch);
-    printf("%s\n", T.ch);
+    printf("%s\n", S.ch + 1);
+    printf("%s\n", T.ch + 1);
 
-    printf("This is BF arithmetic\n");
-    int a = Index_BF(S, T, 0);
+    int a = Index_BF(S, T, 1);
+
     printf("%d\n", a);
 
-    printf("This is KMP arithmetic\n");
+    printf("%s\n", S.ch + a);
+
     int next[MAXLEN];
     Get_next(T, next);
-    a = Index_KMP(S, T, 5, next);
-    printf("%d\n", a);
+
+    int b = Index_KMP(S, T, 1, next);
 
 
-    FreeString(&T);
+    printf("%d\n", b);
+
+    printf("%s\n", S.ch + b);
+
     FreeString(&S);
+    FreeString(&T);
     return 0;
 }

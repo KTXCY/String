@@ -40,14 +40,14 @@ bool AssignString(String *S, const char *str) {
     }
     strcpy(S->ch, str);
     S->length = len;
-    return 0;
+    return true;
 }
 
 int Index_BF(String S, String T, int pos) {
     if (S.ch == NULL || T.ch == NULL) {
         return -1;
     }
-    if (pos < 0 || pos >= MAXLEN) {
+    if (pos < 0 || pos >= S.length) {
         return -1;
     }
     int i = pos;
