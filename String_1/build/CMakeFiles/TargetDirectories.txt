@@ -1,0 +1,3 @@
+/home/kuan/Documents/CPP/String/String_1/build/CMakeFiles/main02.dir
+/home/kuan/Documents/CPP/String/String_1/build/CMakeFiles/edit_cache.dir
+/home/kuan/Documents/CPP/String/String_1/build/CMakeFiles/rebuild_cache.dir

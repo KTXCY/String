@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/kuan/Documents/CPP/String/String_1/build",
+  "command": "/usr/bin/cc  -I/home/kuan/Documents/CPP/String/String_1/include -g -o CMakeFiles/main02.dir/src/KMP_1.c.o -c /home/kuan/Documents/CPP/String/String_1/src/KMP_1.c",
+  "file": "/home/kuan/Documents/CPP/String/String_1/src/KMP_1.c",
+  "output": "CMakeFiles/main02.dir/src/KMP_1.c.o"
+},
+{
+  "directory": "/home/kuan/Documents/CPP/String/String_1/build",
+  "command": "/usr/bin/cc  -I/home/kuan/Documents/CPP/String/String_1/include -g -o CMakeFiles/main02.dir/src/test02.c.o -c /home/kuan/Documents/CPP/String/String_1/src/test02.c",
+  "file": "/home/kuan/Documents/CPP/String/String_1/src/test02.c",
+  "output": "CMakeFiles/main02.dir/src/test02.c.o"
+}
+]
